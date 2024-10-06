@@ -1,0 +1,57 @@
+
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registeration Form</title>
+<script src="javascript/jvs.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+   
+</head>
+
+<body bgcolor="grey" >
+
+<div style=" color: #eee; background-image: url(img/backgr.jpg);" class ="sgnup_div">
+  <br>
+  
+  <center>
+    <img src="img/login.png" width="200" height="80" alt="LOGIN"> 
+  </center>
+  
+  <br>
+
+
+  <table name="signup"  border="0" cellpadding="8" style="padding-left: 30px; position:relative; " >
+  <tr>
+  <form method = "POST" action = "customer.php"  id= "myForm" >
+    <tr>
+  	   <td><label>Email/Username</label></td>
+       <td><input type = "text" size="50" name = "email" placeholder="example@abc.com" required></td>
+    </tr>
+    <tr>
+        <td><label>Password </label></td>
+        <td><input type = "password" name = "pwd" size="50" id="pwd" placeholder="enter password" required></td> 
+    </tr>
+
+      
+      
+
+    
+    <tr>
+        <td><label tyle="cursor:help">Forget password? </label></td>
+          <td><a href="forgetPassword.php" tyle="cursor:help">click here</a></td> 
+    </tr>   
+  </table><br>
+  
+  <center>
+  <input style="color: #eee; " type="submit" name="login" value="Login" class = "loginbutton"/>
+  <input style="color: #eee; " type="reset" name="reset" value="Reset" class = "resetbutton">
+  </center>
+  <br>
+ 
+ </form>
+ </div>
+               
+    </body>
+</html>

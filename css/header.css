@@ -1,0 +1,133 @@
+  #header
+       {
+        color: blue;
+	    text-align:center;
+      width: 100%;
+
+	   }
+     .mine{
+       background-color: #3b5998;
+       border-color: #888;
+       color: white;
+     }    
+        
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 90%
+      /*margin: 1;*/
+         }
+      #myNavbar{
+                font-family: cursive;
+                font-size: 15px;
+               }
+      .left carousel-control{
+                text-decoration: none;
+                font-style: italic;
+                font: 10px;
+            }
+            .right carousel-control{
+                textnt-style: italic;
+                 font: 10px;
+            }
+            .para1{
+                font-family:cursive;
+                background-color: black;
+                color: white;
+               /* width:1050px;
+                
+                /*float: right
+*/
+            }
+            #container{
+                background-color: black;
+            }
+     .galary{
+      width:490px;
+    height:400px;
+        position: relative;
+      border: 5px solid darkgrey;
+    margin-right:8px; 
+        border-radius:13-decoration: none;
+                fopx;
+        -webkit-border-radius:13px;
+        -o-border-radius:13px;
+            }
+           
+
+           .p {
+              text-align: center;
+              padding-top: 140px;
+              font-size: 14px;
+             }
+            .carousel-indicators{
+                position: relative;
+                padding-top: 10px 10px;
+            }
+            .navbar navbar-inverse{
+                background-color: darkgreen;
+                color: aqua;
+            }
+            .carousel-indicators{
+               margin-left: 10%;
+            }
+            nav{
+                background-color: aqua;
+                color: aqua;
+            }
+
+.buttons {
+    text-align: center;
+}
+.button, .button2 {
+    padding: 7px 27px;
+    margin: 60px 6px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+	cursor:pointer;
+}
+.button{
+	color: black ;
+    background:#6a67ce;
+    border-color: black;
+}
+.button a{
+	color: black;
+}
+.button2 {
+	 background: black;
+	 border:2px solid #eee;
+	 color:#333;
+	 transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    border-color: black;
+}
+.button h5, .button2 h5 {
+    font-size: 1.2em;
+}
+.button2 h5 a {
+    color: #333;
+}
+.button2:hover{
+	color: #fff !important;
+	background: #6a67ce;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.button2 h5 a:hover {
+    color: #fff !important;
+}
+
+#container{
+  background-color:black;
+	border-radius:4px;
+	margin:0 auto;
+  margin-top:5px;
+}

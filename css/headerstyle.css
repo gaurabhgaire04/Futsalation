@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:1px;
+  /*padding:50px 5px;*/
+  /*padding-top:60px;
+  padding-bottom:40px; 
+  padding-right:80px;
+  padding-left:-1px;*/
+  /*color:white;
+  font-weight:bolder;
+  
+	*/		/*border-radius:10px;
+   /*-o-border-radius:10px;
+   */border-bottom-right-radius:15px;
+   border-top-left-radius:15px
+	}
+	img{
+		border-radius:13px;
+  -webkit-border-radius:13px;
+  -o-border-radius:13px;
+ 
+  
+		}
+	#head{
+	width:1050px;
+	/*height:900px;
+	*/
+	/*background-color:rgba(52,73,94,0,7);
+	*/background-color:lightgreen;/*lightgrey;
+	/*border-radius:4px;
+	*/margin:0 auto;
+    margin-top:5px;
+	/*padding-top:150px;
+		sud be*/}
+	
+	body{
+	
+		/*color:green;
+	*/margin:1px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-size:150% 1400px;
+	position:relative;
+	}
+	/**>img:hover{
+		color:lightgreen;}
+	*/.navClass
+	{
+	/*padding:-10px 20px;
+	/*position:relative;*/}
+.navClass > ul{
+	background-color:#5e5d5d;/*tan;*/
+	color:#d8d8d8;
+	font-size:15px;
+	font-family:cursive;
+	
+	}
+.navClass > ul >li{
+	list-style-type:none;
+	display:inline-block;
+	padding:3px 13px;
+	position:relative;
+	}	
+   .navClass >ul >li:hover{
+	  background-color:#383838; 
+	   }
+	ul.sub-menu
+	{
+	margin:30px;
+	position:absolute;
+	background-color:#383838;
+	list-style-type:none;
+	width:200px;
+	padding-left:0px;
+	margin-left:-18px;
+	padding-top:3px;	
+	/*margin-right:25px;
+*/	padding-bottom:4px;
+	opacity:0;
+  	}
+	ul.sub-menu li {
+	padding-left:17px;
+	padding-top:3px;
+	padding-bottom:3px;
+ 	margin:8px; 
+    position:relative;
+     }
+	
+     .navClass li:hover .sub-menu
+	 {          
+ 	     opacity:1;
+        }
+      ul.sub-menu li:hover{
+		color:white;
+		background-color:#656565;
+		display:block;
+		}
+	.navClass > ul >li >a
+      { 
+      float:left;
+	  padding-top:-4px;
+      text-decoration:none;
+       color:white;
+       display:block;
+      }
+   
+     ul.sub-menu li a{
+	   text-decoration:none;
+       color:white;
+       display:block;
+      }
+		 
+   .arrow
+   {
+	    /*float:left;*/
+	     position:absolute; 
+	     padding:2px 0px;
+	   }
+   #header
+   {
+      color:WHITE;
+	  background-color:GREEN;
+	  text-align:center;
+	  /*padding-top:150px;
+	*/
+	  }
+#mar_q
+{
+      color:red;
+	 font-family:cursive;
+  }
+	/*body{
+		
+		background-image:C:\Users\ragen\Pictures\logo1.jpg
+		}*/
+	/*.register{
+		font-family:Gill Sans Ultra Bold; 
+		align:right; 
+		color:white;
+		text-decoration:none;  
+		display:block;
+		background-color:aqua;
+		position:relative;
+		}
+		*/.main
+		{
+			
+		font-family:cursive;
+		}
+		#footer{
+     background-color:white;
+	 font-family:cursive;	
+	}
+#footer ul li{
+	list-style-type:none;
+	display:inline-block;
+	padding:0px 15px;
+	position:relative;
+	}	
+	input[type="text"],input[type="password"]{
+	   height:25px;
+	   width:200px;
+	   font-size:16px;
+	   border:none;
+	   margin-bottom:20px;
+	   border-radius:100px;
+	   background-color:#fff;
+	   padding-left:30px;
+	   box-shadow: 0px 0px 25px darkgreen;
+	   font-family:cursive;
+	   
+	   }
+	   .btnsearch{
+				padding:5px 14px;
+				cursor:pointer;
+				color:#fff;
+				border-radius:100px;
+				border:none; 
+				background-color:#2ecc71;
+				border-bottom:2px solid #27ae60;
+				margin-bottom:5px;
+		        font-family:cursive;
+                position:relative;
+		   }
+		   .google{
+			   background-color:lightgreen;/*lightgrey;*/
+			   }
+			   .left_design{
+				   background-color:green;
+				   color:white;
+				   font-family:cursive;
+				   font-size:10px;
+				   position:absolute;
+				   
+				   }
+				    
+				   .left_design>ul>li{
+					    float:none;
+                         list-style-type:none;
+						   }
+					a{
+				  
+                     color:white;
+                     
+					}
+					a:hover{
+						 color:blue;
+                    }
+				 		
+			   .register{
+				   
+			   float:right;
+			   position:relative;
+			   text-decoration:none;
+   			   color:white;
+                display:block;
+				border-radius:100px;
+				border:none; 
+				padding:8px 8px;
+				background-color:red;
+				border-bottom:4px solid darkred;
+				margin-bottom:18px;
+		        margin:1px 5px;
+				font-size:14px;
+				font-family:cursive;
+				   }
+				   .para{
+					  font-family:cursive;
+					  font-size:14px; 
+					   }
+					  .form-input img{
+                               margin-right:-32px;
+	                           margin-bottom:-5px;
+	                           padding:0px 0px;
+							 opacity:1;
+	                            border-radius:100px;
+								position :relative;   
+						  }
+						  

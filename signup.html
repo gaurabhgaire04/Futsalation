@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registeration Form</title>
+<script src="javascript/jvs.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body bgcolor="grey" >   
+
+<div style=" color: #eee; background-image: url(img/backgr.jpg);" class ="sgnup_div ">
+  <br>
+  <center><img src="img/SU_Logo.png" width="200"  align="center" alt="img"></center>
+  <br>
+
+
+    <table name="signup" border="0" cellpadding="8" style="padding-left: 30px; position:relative; " >
+    <tr>
+        <form method = "POST" action = "customer.php" id= "myForm" onsubmit="return checkpw()">
+        <td><label>First name </label></td>
+        <td><input type = "text" id = "fname" name = "fname" placeholder="firstname"  size="50" required></td>
+    </tr>
+    <tr>
+      <td><label>Last name </label></td>
+      <td><input size="50" type = "text" id = "lname" name = "lname" placeholder="lastname" required></td>
+    </tr>
+    <tr>
+      <td><label>Gender </label></td>
+    	<td><input type="radio" size="50" value ="male" name="gender" checked required>male  &emsp;
+          <input type="radio" value ="female" name="gender" required>female<br></td>
+    </tr>
+    <tr>
+      <td><label>Address </label></td>
+      <td><input type = "text" size="50" id = "address" name = "address" placeholder="address" required></td>
+    </tr>
+    <tr>
+  	   <td><label>Email</label></td>
+       <td><input type = "email" size="50" id = "email" name = "email" placeholder="example@abc.com" required></td>
+    </tr>
+    <tr>
+   	    <td><label>Contact </label></td>
+        <td><input type = "text" id = "contact" name = "contact" size="50" placeholder="contact" required></td>
+    </tr>
+    <tr>
+        <td><label>Password </label></td>
+        <td><input type = "password" name = "password" size="50" id="password" placeholder="enter password" required></td> 
+    </tr>
+    <tr> 
+        <td><label>Confirm Password </label></td>
+        <td><input type = "password" name = "cpassword" size="50" id="cpassword" placeholder="re-enter password" required></td>
+    </tr>
+  </table><br>
+  
+  <center>
+  <input type="submit" name="btnSubmit" value="Register" onclick="checkpw();" class="loginbutton"/>
+  <input type="reset" name="btnReset" value="Reset"  class="resetbutton" /> 
+
+  </center>
+      
+            <font color="blue"><i>
+            <p> &emsp;&emsp; Username(Email) and Password will be needed to sign in later!</p>
+            </i>         
+            </font>
+         
+ </form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul li
+{
+	display 	: inline-block;
+	margin-left : -4px;
+	padding 	: 10px 20px;
+	color 		: #FFF;
+}
+
+.heading 
+{
+	color 		: #FFF;
+}
+
+.lcolor
+{
+	background-color : maroon;
+}
+
+.login_button1
+{
+	background-color : teal ; 
+	position 		 : relative; 
+	left 			 : 92%;
+	top 			 : 15px; 
+	height 			 : 60px; 
+	border-radius 	 : 12px; 
+	padding 		 : 5px 20px; 
+	font-size 		 : 16px; 
+	font-style 		 : arial;
+	box-shadow 		 : #959595 0 2px 5px;
+}
+
+.div1
+{
+	position 	: relative;
+	border 		: 2px;
+	box-shadow 	: #959595 2px 4px 8px;
+	background 	: url("img/headerbg.jpg");
+	left 		: 0%; 
+	margin 		: 10px; 
+	width 		: 98%; 
+	height 		: 150px; 
+	overflow 	:auto; 
+	padding 	: 3px; 
+	background-size : 100% 100%; 
+}
+
+.div2
+{
+	color: #008; 
+	position:absolute; 
+	top : 5%; 
+	left :68%;   
+	margin: 10px;  
+	width:300px; 
+	height : 65px; 
+	overflow:auto; 
+	padding : 3px;
+}
+
+.futsal_header
+{
+	color 		: #000; 
+	position 	: absolute; 
+	font-size 	: 60px; 
+	top 		:-50px;
+}
+
